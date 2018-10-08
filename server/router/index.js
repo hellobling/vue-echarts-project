@@ -5,7 +5,7 @@ const config = require('../config').getConfig()
 let axios = require('axios')
 
 router
-    .get('/api/testProxy', function (req, res) {
+    .get('/api/user', function (req, res) {
       res.json({
         "data" : {
           "content": "from_server"

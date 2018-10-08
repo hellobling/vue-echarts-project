@@ -195,7 +195,16 @@ export default {
       currentPage: 1
     }
   },
+  mounted () {
+    this.requestData()
+      .then(res => {
+        console.log('##res ', res.data)
+      })
+  },
   methods: {
+    requestData () {
+      return this.axios.get('/api/user')
+    },
     submitUpload () {
       this.$refs.upload.submit()
     },
