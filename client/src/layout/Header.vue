@@ -2,11 +2,11 @@
   <div>
     <div class="logo">
       <a href="javascript:;">
-        <img src="../assets/images/logo.png" alt="">
+        <img src="" alt="">
       </a>
     </div>
     <div class="header-name">
-      诊疗质控系统
+      监控系统
     </div>
     <div class="navbar">
 
